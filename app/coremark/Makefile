@@ -6,7 +6,7 @@ ASFLAGS = -march=rv32i
 CPP = $(TRIPLET)-g++
 CCFLAGS = $(CFLAGS)
 LD = $(TRIPLET)-gcc
-LDFLAGS = -nostdlib -march=rv32i -Triscv.ld
+LDFLAGS = -nostdlib -march=rv32i -Tqdi-riscv.ld
 OBJCOPY = $(TRIPLET)-objcopy
 OBJDUMP = $(TRIPLET)-objdump
 
